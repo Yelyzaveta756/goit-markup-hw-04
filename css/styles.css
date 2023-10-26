@@ -199,6 +199,7 @@ button {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    margin: 0 auto;
     
 }
 
@@ -211,7 +212,7 @@ button {
     text-align: center;
     max-width: 496px;
     margin: 0 auto;
-    padding-bottom: 48px;
+    margin-bottom: 48px;
 }
 
 .order-service-bttn {
@@ -376,6 +377,7 @@ margin-bottom: 8px;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none; 
+    cursor: pointer;
 }
 
 .portfolio-list-title {
@@ -418,10 +420,10 @@ margin-bottom: 8px;
 .transform-container {
     position: relative;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .overlay {
-    cursor: pointer;
     position: absolute;
     top: 0;
     font-size: 16px; 
@@ -436,7 +438,7 @@ margin-bottom: 8px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.transform-container:hover .overlay {
+.portfolio-list-item:hover .overlay {
    transform: translateY(0%);
 }
 /* FOOTER */
